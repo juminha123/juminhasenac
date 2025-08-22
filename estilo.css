@@ -1,0 +1,27 @@
+* body{
+
+}
+#topo{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(59, 105, 105);
+    margin: auto;
+}
+#logo{
+    margin: 200px;
+    padding: 100px;
+    background-color: aqua;
+    float: left;
+}
+#menu{
+    margin: 780px;
+    padding: 100px;
+    background-color: rgb(36, 77, 77);
+    float: right;
+}
+#banner{
+    margin: 700px;
+    padding: 400px;
+    background-color: rgb(62, 69, 69);
+    margin: auto;
+}
