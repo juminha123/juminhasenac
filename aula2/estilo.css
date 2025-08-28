@@ -1,0 +1,61 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inconsolata", monospace;
+}
+#topoContainer{
+    width: 980px;
+    height: 200px;
+    margin: auto;
+    background-color: blue;
+}
+#logo{
+    width:200px;
+    height:200px;
+    float: left;
+    background-color: blueviolet;
+}
+#menu{
+    width:780px;
+    height:200px;
+    float: right;
+    background-color: rgb(12, 227, 98);
+    text-align: center;
+    word-spacing: 10px;
+}
+#menu a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#banner{
+    width: 700px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 50px;
+}
+#conteudosite{
+    width: 980px;
+    height: 500px;
+    background-color: azure;
+    margin: auto;
+    margin-top: 50px;
+}
+#esquerda{
+    width: 450px;
+    height: 500px;
+    float: left;
+    background-color:blueviolet ;
+}
+#direita{
+    width: 450px;
+    height: 500px;
+    float: right;
+    background-color:rgb(138, 43, 226) ;
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    background-color: rgb(138, 55, 69);
+    margin: auto;
+}
