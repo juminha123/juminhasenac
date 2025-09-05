@@ -1,27 +1,88 @@
 * body{
-
-}
-#topo{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(59, 105, 105);
+    font-family: "Inconsolata", monospace;
+}
+#topoContainer{
+    width: 980px;
+    height: 200px;
     margin: auto;
+     /* background-color: brown; */
+
 }
 #logo{
-    margin: 200px;
-    padding: 100px;
-    background-color: aqua;
+    width:100px;
+    height:100px;
     float: left;
+    /*background-color: blueviolet; */
+}
+#logo img{
+    float:left;
+    padding: 10px 20px 20px 18px;
 }
 #menu{
-    margin: 780px;
-    padding: 100px;
-    background-color: rgb(36, 77, 77);
+    width:780px;
+    height:200px;
     float: right;
+   /* background-color: rgb(58, 7, 75); */
+    text-align: center;
+    word-spacing: 10px;
+}
+#menu a{
+    text-decoration: none;
+}
+#menu a:hover{
+    color:rgb(255, 0, 140);
+}
+.espacotopo{
+    padding-top: 50px;
 }
 #banner{
-    margin: 700px;
-    padding: 400px;
-    background-color: rgb(62, 69, 69);
+    width: 100%;
+    height: 400px;
+    /* background-color: brown; */
     margin: auto;
+    margin-top: 50px;
+}
+#conteudosite{
+    width: 980px;
+    height: 500px;
+    /*background-color: rgb(255, 255, 255); */
+    margin: auto;
+    margin-top: 50px;
+}
+#esquerda{
+    width: 450px;
+    height: 500px;
+    float: left;
+    /*background-color:blueviolet ;*/
+}
+#direita{
+    width: 450px;
+    height: 500px;
+    float: right;
+    /*background-color:rgb(138, 43, 226); */
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    background-color: rgb(138, 55, 69);
+    margin: auto;
+}
+.input{
+    width: 100%;
+    height:30px;
+}
+.mensagem{
+    width: 100%;
+    height:100px;
+    margin-top: 10px;
+}
+.botao{
+    width: 100%;
+    height:30px;
+    border: none;
+    background-color: blueviolet;
+    padding:10px;
+    color:white;
 }
