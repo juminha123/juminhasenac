@@ -1,88 +1,63 @@
 * body{
     margin: 0px;
     padding: 0px;
-    font-family: "Inconsolata", monospace;
 }
-#topoContainer{
+#topoporcento{
+    width: 100%;
+    height:100%;
+/* background-color: blue; */
+}
+#topo{
     width: 980px;
-    height: 200px;
+    height: 100px;
     margin: auto;
-     /* background-color: brown; */
+   /* background-color: blueviolet; */
 
 }
 #logo{
-    width:100px;
-    height:100px;
+    width:200px;
+    height: 100px;
     float: left;
-    /*background-color: blueviolet; */
-}
-#logo img{
-    float:left;
-    padding: 10px 20px 20px 18px;
 }
 #menu{
-    width:780px;
-    height:200px;
+    width:680px;
+    height: 100px;
+    /* background-color: rgb(128, 0, 248); */
     float: right;
-   /* background-color: rgb(58, 7, 75); */
-    text-align: center;
+    text-align: right;
+    color: aqua;
+    text-decoration: none;
     word-spacing: 10px;
+    text-align: right;
 }
 #menu a{
+    color: blue;
     text-decoration: none;
 }
 #menu a:hover{
-    color:rgb(255, 0, 140);
-}
-.espacotopo{
-    padding-top: 50px;
+    color: rgb(64, 64, 121);
 }
 #banner{
     width: 100%;
     height: 400px;
-    /* background-color: brown; */
-    margin: auto;
-    margin-top: 50px;
 }
-#conteudosite{
+#container{
     width: 980px;
     height: 500px;
-    /*background-color: rgb(255, 255, 255); */
     margin: auto;
-    margin-top: 50px;
+  /*background-color: chartreuse; */
 }
-#esquerda{
-    width: 450px;
-    height: 500px;
-    float: left;
-    /*background-color:blueviolet ;*/
+.espacomenu{
+    word-spacing: 30px;
 }
-#direita{
-    width: 450px;
-    height: 500px;
-    float: right;
-    /*background-color:rgb(138, 43, 226); */
+.espacogaleria{
+    word-spacing: 0px;
 }
-#rodape{
+#galeria{
     width: 980px;
-    height: 50px;
-    background-color: rgb(138, 55, 69);
-    margin: auto;
-}
-.input{
-    width: 100%;
-    height:30px;
-}
-.mensagem{
-    width: 100%;
-    height:100px;
-    margin-top: 10px;
-}
-.botao{
-    width: 100%;
-    height:30px;
-    border: none;
-    background-color: blueviolet;
-    padding:10px;
-    color:white;
+    height: 436px;
+    background-color: blue;
+    clear:both;
+    margin:auto;
+    margin-top: 270px;
 }
