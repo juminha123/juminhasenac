@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <form>
+        Nome: <input type="text" id="nome" placeholder="Ex: Julia">
+        selecione: 
+        <select name="série" id="série">
+            <option> 1° ano</option>
+            <option> 2° ano</option>
+            <option> 3° ano</option>
+        </select>
+        Turno:
+        Manhã<input type="radio" name="manhã" id="manhã" value="manhã">
+        Tarde <input type="radio" name="tarde" id="tarde" value="tarde">
+        Noite <input type="radio" name="noite" id="noite" value="noite">
+        <input type="submit" value="enviar" onclick="imprimirVariaveis()">
+    </form>
+
+    <script>
+    function imprimirVariaveis() {
+       var nome = document.getElementById('nome').value;
+       var cursos = document.getElementById('cursos').value;
+       var apple = document.getElementById('apple').valie;
+       alert(nome + " " + cursos);
+       document.write(nome);
+     }
+    </script>
+</body>
+</html>
