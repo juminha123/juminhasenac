@@ -7,16 +7,19 @@
 </head>
 <body>
     <form>
-        Nome: <input type="text" id="nome" placeholder="Ex: Julia">
+        Nome: <input type="text" id="filmes" placeholder="Ex: Capitães da Areia">
         selecione: 
-        <select name="cursos" id="cursos">
-            <option> HTML</option>
-            <option> CSS</option>
-            <option> JS</option>
+        <select name="gêneros" id="generos">
+            <option> Ação</option>
+            <option> Comédia</option>
+            <option> Terror</option>
+            <option> fantasia</option>
+            <option> ficção cientifica</option>
+            <option> suspense</option>
         </select>
-
-        Apple <input type="radio" name="linux" id="apple" value="apple">
-        linux <input type="radio" name="linux" id="linux" value="linux">
+        assistido:
+        Sim <input type="radio" name="sim" id="sim" value="sim">
+        Não <input type="radio" name="não" id="não" value="não">
         <input type="submit" value="enviar" onclick="imprimirVariaveis()">
     </form>
 
