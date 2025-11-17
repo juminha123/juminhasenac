@@ -1,63 +1,155 @@
 * body{
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(94, 51, 23); 
+/*background-image: url(fotofundo.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
 }
-#topoporcento{
+#topo-porcento{
     width: 100%;
-    height:100%;
-/* background-color: blue; */
+    height: 115px;
+    /* background-color: rgba(222, 71, 236, 0.986); */
+     margin: auto;
+    margin: center;
 }
 #topo{
-    width: 980px;
-    height: 100px;
+    width: 1280px;
+    height: 80px;
     margin: auto;
-   /* background-color: blueviolet; */
-
+    margin: center;
+   /* background-color: aqua; */
 }
 #logo{
-    width:200px;
-    height: 100px;
+    width: 100px;
+    height: 65px;
     float: left;
+    background-color: black;
+
 }
 #menu{
-    width:680px;
-    height: 100px;
-    /* background-color: rgb(128, 0, 248); */
+    width: 780px;
+    height: 350px;
     float: right;
-    text-align: right;
-    color: aqua;
-    text-decoration: none;
-    word-spacing: 10px;
-    text-align: right;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    word-spacing: 20px;
 }
 #menu a{
-    color: blue;
     text-decoration: none;
+    color: rgb(253, 237, 203);
+    text-align: center;
+    padding: 0%;
 }
 #menu a:hover{
-    color: rgb(64, 64, 121);
+    color: rgb(171, 69, 11);
 }
-#banner{
+.espacamento{
+    padding-top: 40px;
+}
+#animacao{
     width: 100%;
     height: 400px;
-}
-#container{
-    width: 980px;
-    height: 500px;
     margin: auto;
-  /*background-color: chartreuse; */
 }
-.espacomenu{
-    word-spacing: 30px;
+#containerTitulo{
+    text-align: center;
+    color: rgb(171, 69, 11);
+    font-weight: bold;
+    font-size: 20px;
 }
-.espacogaleria{
-    word-spacing: 0px;
+#cont.cardapio{
+    width: 320px;
+    height: 300px;
+    background-color: rgb(235, 12, 176);
+    float: left;
+    margin-left: 10px;
+        text-align: center;
 }
-#galeria{
+#cardapio{
+    margin: center;
+    padding: 20px;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+}
+img{
+    max-width: 245px;
+    height: 300px;
+    display: block; 
+}
+.flex{
+    display: flex;
+    /* padding: 30px; */
+    flex-wrap: wrap ;
+    gap: 5px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+.flex > div {
+    flex: 1 1 200px; 
+    margin: 10px; 
+}
+#rodape-porcento{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(207, 168, 110);
+}
+#rodape{
     width: 980px;
-    height: 436px;
-    background-color: blue;
-    clear:both;
-    margin:auto;
-    margin-top: 270px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(253, 237, 203);
+    margin: auto;
 }
+/* #conteudoMedio{
+    width: 1280px;
+    height: 630px;
+    margin: auto;
+    text-align: justify;
+    background-color: blueviolet; 
+line-height: 25px;
+} 
+/*#conteudoMedio img{
+    float: left;
+    padding: 0px 10px 0px 0px;
+}
+#projetos{
+    width: 1280px;
+    height: 1830px;
+    margin: auto;
+    text-align: justify;
+    background-color: blueviolet; 
+    line-height: 25px;
+} */
+/* #projetos img{
+    float: left;
+    padding: 0px 10px 0px 0px;
+}
+.estiloform{
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+}
+#segura{
+    width: 980px;
+    height: 100%;
+} */
+/* #condtudo{
+    width: 1000px;
+    height: 1000px;
+    background-color: black;
+}
+#containerFormu{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+#conformuu{
+    width: 600px;
+    height: 400px;
+    background-color: blue; 
+} */
