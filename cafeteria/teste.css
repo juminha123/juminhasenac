@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(114, 63, 34);
+}
+section{
+    padding: 28px 8%;
+}
+
+.btn-default{  /*botão de pedidos*/
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 1000;
+    cursor: pointer;
+    transition: background-color .6s ease;
+    color: aliceblue;
+    font-size: 15px;
+}
+.btn-default:hover{
+    background-color: rgb(168, 101, 23); /* troca a cor do botão*/
+}
+#rodape-porcento{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 237, 210);
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    margin-top: 70px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+   margin: auto;
+}
+header{
+    width: 100%;
+    padding: 10px 8%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(171, 69, 11);
+    z-index: 4;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#nav_logo {
+    font-size: 24px;
+    width: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   font-weight: 800;
+   font-size: 20px;
+}
+
+.nav_item.active a{
+    border-bottom: 3px solid rgb(216, 125, 6);
+    border-radius: 1px;
+    width: 50px;
+    transition: 0.8s;
+}
+#home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+    z-index: 2;
+}
+#cta{
+    width: 35%;
+    display: flex; /* um do lado do outro*/
+    flex-direction: column; /* um embaixo do outro*/
+    gap: 28px; /* distancia entre linhas*/
+    margin-top: 5%; /* espaçamento*/
+}
+#cta .title{
+    font-size:4rem;
+
+}
+#cta .title span{
+    font-size:4rem;
+    color: rgb(179, 109, 4); /* muda a cor de uma palavra*/
+}
+#cta.description{
+    font-size: 1.2rem;
+}
+#cta_buttons{
+    display: flex;
+    gap: 24px;
+}
+#cta_buttons a{
+    text-decoration: none;
+    color:rgb(117, 76, 0)
+}
+#animacao{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#phone_button{
+    width: 200px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: rgb(255, 199, 127);
+    padding: 8px 14px;
+    font-weight: 1000;
+    border-radius: 12px;
+    color: black;
+}
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 3;
+}
+#banner img{
+    width: fit-content;
+    height: 1000;
+}
+.shape{
+    margin-top: 20px;
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(182, 103, 0);
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    border-radius: 40% 40% 40% 40%; /* formato da forma*/
+    top: 0;
+    right: 0; 
+    z-index: 2; /* DIZ A POSIÇÃO IMPORTANTE*/
+}
+#testimonials{
+    margin-top: 120px;
+    min-height: calc(100vz - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+#testimonials_chef{
+    width: 500px;
+    height: auto;
+}
+#testimonials .section-subtitle{
+    font-size: 3rem;
+}
+#testimonials_content{
+    width: 50%;
+}
+#feedbacks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(243, 131, 67);
+    padding: 12px;
+    border-radius: 12px;
+}
+.feedback-avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.feedback-content p{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    justify-content:center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: beige;
+    border-radius: 20px;
+    transition: 0.8s;
+    margin: 20px;
+    align-items: center;
+}
+
+.card:hover{
+    height: 350px;
+} 
+
+.card .img-box{
+    position: absolute;
+    width: 170px;
+    height: auto;
+    top: 0px;
+    transition: 0.8s;
+}
+.card:hover .img-box{
+    top: -100px;
+    scale: 0.75
+}
+
+.card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position:absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.card:hover .content{
+    top: 130px;
+    height: 250px;
+}
+.card .read-more {
+    background: rgb(171, 69, 11);
+    padding: 12px;
+    color:beige;
+    text-decoration: none;
+    border-radius: 8px;
+}
