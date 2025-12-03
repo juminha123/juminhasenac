@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="card.css">
-
-
-    <title>cafeteria</title>
+    <link rel="stylesheet" href="../styles/card.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+ 
+    <title>carrinho de compras</title>
 </head>
 <body>
-    <header>
+ <header>
         <nav id="navbar">
             <img src="../fotos/logoovelvetrosat.png" id="nav_logo">
 
@@ -24,88 +23,223 @@
                     <a href="cardapio.html" style="text-decoration: none;">cardapio</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#empresa"style="text-decoration: none;">empresa</a>
+                    <a href="empresa.html"style="text-decoration: none;">empresa</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#contato"style="text-decoration: none;">contato</a>
+                    <a href="contato.html"style="text-decoration: none;">contato</a>
                 </li>
             </ul>
-            <button class="btn-default">
-                pedidos
+            <button class="btn-default" 
+            <a href="pedidos.html">pedidos</a>
             </button>
         </nav>
     </header>
-    <div class="card">
-        <div class="img-box">
-            <img src="../fotos/caneca.png">
-        </div>
-        <div class="content">
-            <h2> capputinno</h2>
-            <p>
-                Uma combinação perfeita entre espresso, leite vaporizado e espuma cremosa.
-                <br> Leve, equilibrado e muito aromático.
-                <br> 1 dose de espresso
-                <br> Leite vaporizado
-                <br>Espuma de leite
-                <br>Cacau em pó ou canela
-            </p>
 
-            <a href="#" class="read-more">
-                adicionar ao carrinho
-        
-            </a>
+    <h1>conheça nosso</h1>
+    <h3>cardápio</h3>
+
+    <div class="container-cards">
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/capp.jpeg">
+            </div>
+            <div class="content">
+                <h2>Cappuccino</h2>
+                <p>
+                    Uma combinação perfeita entre espresso, leite vaporizado e espuma cremosa.
+                    <br> Leve, equilibrado e muito aromático.
+                    <br> 1 dose de espresso
+                    <br> Leite vaporizado
+                    <br>Espuma de leite
+                    <br>Cacau em pó ou canela
+                </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
         </div>
 
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/espresso.jpeg">
+            </div>
+            <div class="content">
+                <h2>Espresso</h2>
+                 <p>
+                    Clássico e intenso, o espresso é a base de diversas bebidas. Preparado sob alta pressão, destaca o sabor e o aroma do grão, com crema aveludada e textura encorpada.
+                    <br>Café moído 
+                    <br>Água quente 
+                </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
         </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/Mocha.jpg">
+            </div>
+            <div class="content">
+                <h2>Mocha</h2>
+                <p>
+                 O mocha mistura espresso, chocolate quente e leite vaporizado, finalizado com chantilly. Doce, cremoso e irresistível.
+                    <br>1 dose de espresso
+                    <br>Chocolate (calda ou pó)
+                    <br>Leite vaporizado
+                    <br>Chantilly
+                 </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
+        </div>
+
     </div>
-    <div class="card">
-        <div class="img-box">
-            <img src="../fotos/caneca.png">
-        </div>
-        <div class="content">
-            <h2> espresso</h2>
-            <p>
-                Clássico e intenso, o espresso é a base de diversas bebidas. Preparado sob alta pressão, destaca o sabor e o aroma do grão, com crema aveludada e textura encorpada.
-                <br>Café moído 
-                <br>Água quente 
-            </p>
-            <a href="#" class="read-more">
-                adicionar ao carrinho
-        
-            </a>
+    <h1>doces</h1>
+    <div class="container-cards">
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/cheesecake.jpg">
+            </div>
+            <div class="content">
+                <h2>Cheesecake</h2>
+                <p>sobremesa cremosa com base crocante, coberta com doce sabor.
+                    <br> cheam cheese,
+                    <br>açúcar, ovos
+                    <br>biscoito, manteiga
+                    <br> essência de baunilha
+                </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
         </div>
 
-        </div>
-    </div>
-    <div class="card">
-        <div class="img-box">
-            <img src="../fotos/caneca.png">
-        </div>
-        <div class="content">
-            <h2> Mocca</h2>
-            <p>
-             O mocha mistura espresso, chocolate quente e leite vaporizado, finalizado com chantilly. Doce, cremoso e irresistível.
-                <br>1 dose de espresso
-                <br>Chocolate (calda ou pó)
-                <br>Leite vaporizado
-                <br>Chantilly
-            </p>
-            <a href="#" class="read-more">
-                adicionar ao carrinho
-        
-            </a>
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/bolo.jpg">
+            </div>
+            <div class="content">
+                <h2>Bolo Red Velvet</h2>
+                <p>Especialidade da casa.<br>Fofinho e macio, com cor vibrante e sabor delicado de cacau.
+                    <br> farinha, manteiga
+                    <br>açúcar, ovos
+                    <br>cacau em pó, corantes
+                    <br> buttermilk e cream cheese.
+                </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
         </div>
 
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/croassat.jpg">
+            </div>
+            <div class="content">
+                <h2>Croissant</h2>
+                <p>O mocha mistura espresso...</p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
         </div>
+
     </div>
-    
-</body>
-</html>
+     <h1>salgados</h1>
+    <div class="container-cards">
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/empada.jpg">
+            </div>
+            <div class="content">
+                <h2>Empadinha</h2>
+                <p>massa macia e dourada, com recheio cremoso e bem temperado.
+                    <br>farinha, frango
+                    <br>manteiga, ovos
+                    <br>leite, cebola
+                    <br>alho e outros.
+                </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/coxinhaa.jpeg">
+            </div>
+            <div class="content">
+                <h2>Coxinha</h2>
+                <p>crocante por fora e cremosa por dentro, recheada com frango suculento.
+                    <br>farinha, frango
+                    <br>manteiga, catupiry(opicional)
+                    <br>leite, cebola
+                    <br>alho e outros.
+                </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/folhado.jpeg">
+            </div>
+            <div class="content">
+                <h2>Folhado quatro queijos</h2>
+                <p>massa folhada leve e crocante com recheio cremoso de queijos selecionados.
+                    <br>massa folhada
+                    <br> mussarela,
+                    <br> provolone, parmesão e
+                    <br>requeijão cremoso.
+                </p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
+        </div>
+
+    </div>
+     <h1>chás</h1>
+    <div class="container-cards">
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/chamate.jpeg">
+            </div>
+            <div class="content">
+                <h2>Chá-mate</h2>
+                <p>Refrescante e revigorante, o chá‑mate é uma tradição brasileira que conquista pelo sabor leve e agradável.
+                 Pode ser apreciado quente ou gelado, perfeito para qualquer momento do dia.</p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/chapreto.jpeg">
+            </div>
+            <div class="content">
+                <h2>Chá preto</h2>
+                <p>Clássico e encorpado, o chá preto é ideal para quem gosta de uma bebida intensa e reconfortante
+                    . Um convite para relaxar e saborear cada gole com tranquilidade.</p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="../fotos/camomila.jpeg">
+            </div>
+            <div class="content">
+                <h2>Chá de Camomila</h2>
+                <p>Delicado e calmante, o chá de camomila é perfeito para relaxar e cuidar do bem-estar.
+                     Seu aroma suave transforma qualquer pausa em um momento de conforto e aconchego.</p>
+                <a href="#" class="read-more">adicionar ao carrinho</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/yortem/yAccessibility@latest/yaccessibility.js"></script>
+        <script>
+        yAccessibility();
+    </script>
+
     <footer>
         <div id="rodape-porcento">
             <div id="rodape">
-                <p> Desenvolvido - Julia de souza gomes (2025) </p>
-            </div> 
+                <p>Desenvolvido - Julia de souza gomes (2025)</p>
+            </div>
         </div>
     </footer>
 </body>
