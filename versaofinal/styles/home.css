@@ -1,0 +1,73 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+    z-index: 2;
+}
+#cta{
+    width: 35%;
+    display: flex; /* um do lado do outro*/
+    flex-direction: column; /* um embaixo do outro*/
+    gap: 28px; /* distancia entre linhas*/
+    margin-top: 5%; /* espaçamento*/
+}
+#cta .title{
+    font-size:4rem;
+
+}
+#cta .title span{
+    font-size:4rem;
+    color: rgb(179, 109, 4); /* muda a cor de uma palavra*/
+}
+#cta.description{
+    font-size: 1.2rem;
+}
+#cta_buttons{
+    display: flex;
+    gap: 24px;
+}
+#cta_buttons a{
+    text-decoration: none;
+    color:rgb(117, 76, 0)
+}
+#animacao{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#phone_button{
+    width: 200px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: rgb(255, 199, 127);
+    padding: 8px 14px;
+    font-weight: 1000;
+    border-radius: 12px;
+    color: black;
+}
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 3;
+}
+#banner img{
+    width: fit-content;
+    height: 1000;
+}
+.shape{
+    margin-top: 20px;
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(182, 103, 0);
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    border-radius: 40% 40% 40% 40%; /* formato da forma*/
+    top: 0;
+    right: 0; 
+    z-index: 2; /* DIZ A POSIÇÃO IMPORTANTE*/
+}

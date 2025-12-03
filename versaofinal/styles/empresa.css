@@ -1,0 +1,53 @@
+.area {
+    position: absolute;
+    right: 0;             /* encosta o container na lateral da tela */
+    top: 100px;           /* ajuste a altura que você quiser */
+    width: 100px;         /* parte visível */
+    height: 200px;        /* ajuste ao tamanho da imagem */
+    overflow: visible;    /* deixa a imagem passar pra fora */
+}
+
+.area .img-wrapper {
+    position: relative;
+    width: 500px;         /* tamanho total da imagem */
+    height: 500px;
+    right: 150px;         /* metade pra fora */
+    animation: rotate 3s linear infinite;
+}
+
+.area img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+#quadrado{
+    padding-left: 190px;
+    margin-top: 50px;
+    color: antiquewhite;
+}
+#container_texto {
+    width: 980px;
+    height: 1200px;
+    background-color: rgb(131, 65, 3);
+    font-size: 25px;
+    position: relative;  /* necessário para z-index relativo */
+    border: solid 50px rgb(77, 36, 2);
+    padding: 20px 20px 40px 40px;
+    line-height: 1.3;
+    z-index: 1; /* camada mais baixa */
+}
+
+#img_ilust {
+    width: 300px;
+    height: 200px;
+    position: absolute;  /* posicionamento por cima */
+    top: 50px;           /* ajuste vertical */
+    right: 50px;         /* distância da direita */
+    z-index: 2;    
+    background-color: aqua;
+    margin-top: 85px;      /* camada mais alta, na frente do texto */
+}
+h1,
+h3{
+    text-align: center;
+}
